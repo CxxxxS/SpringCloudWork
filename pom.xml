@@ -11,6 +11,9 @@
         <module>serviceProvider8001</module>
         <module>serviceConsumer80</module>
         <module>commonApi</module>
+        <module>eurekaServer7001</module>
+        <module>eurekaServer7002</module>
+        <module>serviceProvider8002</module>
     </modules>
     <packaging>pom</packaging>
 

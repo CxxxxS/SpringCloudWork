@@ -2,12 +2,12 @@ package com.cxs.springbootWork;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-@EnableEurekaClient
-public class Consumer80 {
+@EnableEurekaServer
+public class Eureka7002 {
     public static void main(String[] args) {
-        SpringApplication.run(Consumer80.class, args);
+        SpringApplication.run(Eureka7002.class, args);
     }
 }
