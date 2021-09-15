@@ -9,6 +9,8 @@
   <version>1.0-SNAPSHOT</version>
     <modules>
         <module>serviceProvider8001</module>
+        <module>serviceConsumer80</module>
+        <module>commonApi</module>
     </modules>
     <packaging>pom</packaging>
 

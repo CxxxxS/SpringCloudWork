@@ -1,6 +1,6 @@
-package com.cxs.payment.service;
+package com.cxs.springbootWork.service;
 
-import com.cxs.payment.entity.Payment;
+import com.cxs.springbootWork.entity.Payment;
 
 public interface PaymentService {
     public int create(Payment payment);

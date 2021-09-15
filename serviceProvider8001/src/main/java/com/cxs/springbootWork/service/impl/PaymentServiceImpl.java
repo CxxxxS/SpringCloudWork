@@ -1,8 +1,8 @@
-package com.cxs.payment.service.impl;
+package com.cxs.springbootWork.service.impl;
 
-import com.cxs.payment.dao.PaymentDao;
-import com.cxs.payment.entity.Payment;
-import com.cxs.payment.service.PaymentService;
+import com.cxs.springbootWork.entity.Payment;
+import com.cxs.springbootWork.dao.PaymentDao;
+import com.cxs.springbootWork.service.PaymentService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

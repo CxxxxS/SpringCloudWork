@@ -1,4 +1,4 @@
-package com.cxs.payment.entity;
+package com.cxs.springbootWork.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

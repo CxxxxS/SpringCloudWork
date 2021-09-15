@@ -3,13 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.cxs.payment.dao.PaymentDao">
+<mapper namespace="com.cxs.springbootWork.dao.PaymentDao">
     <insert id="create" parameterType="Payment" useGeneratedKeys="true" keyProperty="id">
         insert into payment(serial) values (#{serial});
     </insert>
 
     
-    <resultMap id="BaseMap" type="com.cxs.payment.entity.Payment">
+    <resultMap id="BaseMap" type="com.cxs.springbootWork.entity.Payment">
         <id column="id" property="id" jdbcType="BIGINT"/>
         <id column="serial" property="serial" jdbcType="VARCHAR"/>
     </resultMap>

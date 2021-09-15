@@ -17,4 +17,4 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml  # 扫描类路径下mapper文件夹下的.xml配置文件
-  type-aliases-package: com.cxs.payment.entity  # 该包所有Entity类，取默认别名
+  type-aliases-package: com.cxs.springbootWork.entity  # 该包所有Entity类，取默认别名

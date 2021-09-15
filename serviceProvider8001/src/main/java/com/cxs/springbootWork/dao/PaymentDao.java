@@ -1,6 +1,6 @@
-package com.cxs.payment.dao;
+package com.cxs.springbootWork.dao;
 
-import com.cxs.payment.entity.Payment;
+import com.cxs.springbootWork.entity.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
