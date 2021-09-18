@@ -16,6 +16,10 @@
         <module>serviceProvider8002</module>
         <module>consulServer8006</module>
         <module>consumerConsul</module>
+        <module>feignConsumer</module>
+        <module>hystrixProvider8001</module>
+        <module>hystrixConsumer80</module>
+        <module>hystrixDashboard</module>
     </modules>
     <packaging>pom</packaging>
 
