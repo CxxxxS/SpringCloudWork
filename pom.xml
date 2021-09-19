@@ -21,6 +21,8 @@
         <module>hystrixConsumer80</module>
         <module>hystrixDashboard</module>
         <module>gateway9527</module>
+        <module>configCenter3344</module>
+        <module>configConsumer</module>
     </modules>
     <packaging>pom</packaging>
 
