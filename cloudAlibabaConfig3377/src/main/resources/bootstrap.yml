@@ -1,0 +1,30 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # Nacos服务注册中心地址
+      config:
+        server-addr: localhost:8848 # Nacos作为配置中心地址
+        file-extension: yaml  # 指定yaml格式的配置
+        group: DEFAULT_GROUP
+        namespace: e42f8b3c-2bac-4823-80a4-5dc1ca59c79b
+#  在Nacos Spring Cloud中，Data Id的完整格式如下：
+#
+#  ${prefix}-${spring.profile.active}.${file-extension}
+#
+#  其中：
+#
+#  ${prefix}：为spring.application.name 的值
+#
+#  ${spring.profile.active}：
+#  即为当前环境对应的profile
+#  当为空时，- 也将不存在，拼接格式变成：${prefix}.${file-extension}
+#
+#  ${file-extension}：配置文件的数据格式，一般是 properties/yaml
+#
+#  注意：nacos没有yml，只识别yaml。

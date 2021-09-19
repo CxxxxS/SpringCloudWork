@@ -27,6 +27,10 @@
         <module>streamProvider8801</module>
         <module>streamConsumer8802</module>
         <module>streamConsuner8803</module>
+        <module>cloudAlibabaProvider9001</module>
+        <module>cloudAlibabaProvider9002</module>
+        <module>cloudAlibabaConsumer83</module>
+        <module>cloudAlibabaConfig3377</module>
     </modules>
     <packaging>pom</packaging>
 
