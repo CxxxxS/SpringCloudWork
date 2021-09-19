@@ -10,7 +10,6 @@ spring:
       discovery:  # 对应eureka中的配置中心，默认不写是找config-server
         service-id: cloud-config-center
         enabled: true # 开启读取配置中心的配置，默认是false
-
   rabbitmq:
     port: 5672
     host: localhost
@@ -22,11 +21,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    #instance-id: springcloud-config-client01
     prefer-ip-address: true
 
 server:
-  port: 3355
+  port: 3366
 
 management:
   endpoints:

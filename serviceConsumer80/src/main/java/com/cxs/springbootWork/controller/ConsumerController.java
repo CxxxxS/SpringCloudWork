@@ -26,7 +26,7 @@ public class ConsumerController {
     @Resource
     private DiscoveryClient discoveryClient;
 
-    public static final String PAYMENT_URL = "http://SERVICEPROVIDER";
+    public static final String PAYMENT_URL = "http://localhost:8001";
 
     @GetMapping("/consumer/payment/create")
     public CommonResult<Payment> create(Payment payment) {
@@ -64,4 +64,14 @@ public class ConsumerController {
         //此处调用的服务返回值是所调用服务的port
         return restTemplate.getForObject(uri+"/payment/lb", String.class);
     }
+
+    /**
+     * 测试链路监控
+     */
+    @GetMapping(value = "/consumer/payment/zipkin")
+    public String paymentZipkin(){
+        String result = restTemplate.getForObject(PAYMENT_URL+"/payment/zipkin", String.class);
+        return result;
+    }
+
 }

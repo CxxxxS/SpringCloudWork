@@ -23,6 +23,10 @@
         <module>gateway9527</module>
         <module>configCenter3344</module>
         <module>configConsumer</module>
+        <module>configConsumer3366</module>
+        <module>streamProvider8801</module>
+        <module>streamConsumer8802</module>
+        <module>streamConsuner8803</module>
     </modules>
     <packaging>pom</packaging>
 

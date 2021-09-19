@@ -77,4 +77,13 @@ public class PaymentController {
         }
         return port;
     }
+
+    /**
+     * 测试链路监控
+     */
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "hi, i'am paymentZipkin server fall back, welcome to here, O(∩_∩)O哈哈~";
+    }
+
 }
