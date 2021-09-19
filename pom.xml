@@ -20,6 +20,7 @@
         <module>hystrixProvider8001</module>
         <module>hystrixConsumer80</module>
         <module>hystrixDashboard</module>
+        <module>gateway9527</module>
     </modules>
     <packaging>pom</packaging>
 
